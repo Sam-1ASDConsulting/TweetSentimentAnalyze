@@ -10,11 +10,11 @@ from textblob import TextBlob
 import csv
 
 # Connect to your Twitter App you setup on https://developer.twitter.com
-consumer_key = 'TiQDxYoWZn51dlwYfrXPCxBqF'
-consumer_secret = 'ZSUBv8MOXys83Jopky0hjpdAf7BfqPlCYnV0nLRLoh44hqk1XU'
+consumer_key = ''
+consumer_secret = ''
 
-access_token = '2508050690-wsi2RV8x44alpywunE3quaVnjJK77pFZjhNxSJS'
-access_token_secret = 'gZpprbdyDgRj6g0KTmpBCg5QMu7x8Bh5nxK9fg03Q9Wvo'
+access_token = ''
+access_token_secret = ''
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
